@@ -8,5 +8,13 @@ eureka:
   instance:
       hostname: localhost
       
+      
+      
+microservice:
+  Authldap-service:
+    endpoints:
+       endpoint:
+          uri: ldap://localhost:10390
+          base: dc=example,dc=com
  
 
