@@ -11,7 +11,7 @@ eureka:
       
       
 microservice:
-  Authldap-service:
+  authldap-service:
     endpoints:
        endpoint:
           uri: ldap://localhost:10390
